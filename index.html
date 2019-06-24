@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿京东首页2.0</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/slick.css">
+</head>
+<body>
+	<!-- fixed -->
+		<div id="fixed" style="opacity: 0;">
+			<div class="fixed_c ">
+					<div class="fixed_p"><img src="picture/fixed_1.png" alt=""></div>
+					<div><input  class="fixed_text" type="text" placeholder="  "></div>
+					<div class="fixed_zxj"><a href=""><span class="iconfont icon-13"></span></a></div>
+					<div class="fixed_anniu "><a href=""><span class="iconfont icon-ai219"></span></a></div>
+					
+			</div>
+		
+		</div>
+		<script>
+			window.onscroll=function (argument) {
+			if (document.documentElement.scrollTop>400||document.body.scrollTop>400) {
+			document.getElementById('fixed').style.opacity=1;
+			} else {
+			document.getElementById('fixed').style.opacity=0;
+			}
+			// console.log(document.documentElement.scrollTop);
+			// console.log(document.body.scrollTop);
+			// docmentElement:HTML根
+		}
+		</script>
+    <!-- header -->
+    	<div class="header_top container">
+				<img src="picture/header1.jpg" >
+			</div>
+		<div class="header container">
+			
+			<div class="header_buttom lf">
+				<div class="buttom_l ">
+					<div class="b_kong"></div>
+					<li><a href=""> <span class="iconfont icon-dizhi-copy"></span>辽宁</a></li>
+				</div>
+				<div class="buttom_r ">
+					<li><a href="">你好，请登录</a></li>
+					<li><a href="">免费注册 </a>|</li>
+					<li><a href="">我的订单 </a>|</li>
+					<li><a href="">我的京东 </a><span class="iconfont icon-xiajiantou"></span>
+					<div class="nav_list1">
+						<div class="nav_list1_t">
+					  		<a href="">待处理订单</a>
+					  		<a href="">消息</a><br>
+					  		<a href="">返修退换货</a>
+					  		<a href="">我的问答</a><br>
+					  		<a href="">降价商品</a>
+					  		<a href="">我的关注</a>
+					  	</div>
+					  	<div class="nav_list1_b">
+					  		<a href="">我的京豆</a>
+					  		<a href="">我的优惠卷</a><br>
+					  		<a href="">我的白条</a>
+					  		<a href="">我的理财</a>
+						</div>
+					</div>
+					|</li>
+					<li><a href="">京东会员</a>|</li>
+					<li><a href="">企业采购</a><span class="iconfont icon-xiajiantou"></span> 
+					<div class="nav_list2">
+					  <a href="">企业购</a>
+					  <a href="">商用场景馆</a><br>
+					  <a href="">工业品</a>
+					  <a href="">礼品卡</a>
+					</div>|</li>
+					
+					<li><a href="">客户服务</a><span class="iconfont icon-xiajiantou"></span>
+					<div class="nav_list3">
+					 <div class="biaoti">客户<br></div>
+					  <a href="">帮助中心</a>
+					  <a href="">售后服务</a><br>
+					  <a href="">在线客服</a>
+					  <a href="">意见建议</a><br>
+					  <a href="">电话客服</a>
+					  <a href="">客户邮箱</a><br>
+					  <a href="">金融咨询</a>
+					  <a href="">全球售客服</a>
+
+					</div>|</li>
+					
+					<li><a href="">网站导航</a><span class="iconfont icon-xiajiantou"></span>|</li>
+					
+					<li><a href="">手机京东</a></li>
+				</div>
+			</div>
+		</div>
+    <!-- search -->	
+		<div class="search container clearfloat">
+			<div class="search_c ">
+				<div class="search_c_t ">
+					<div><input  class="searchtext" type="text" id="text" placeholder="  618"></div>
+					<div class="zxj"><a href=""><span class="iconfont icon-13"></span></a></div>
+					<div class="searchanniu "><a href=""><span class="iconfont icon-ai219"></span></a></div>
+				</div>
+
+				<script>
+					var text=document.querySelector('#text');
+					text.focus();  
+				</script>
+
+				<div class="search_c_b lf">
+						<li><a href="">男装拼购节</a></li>
+						<li><a href="">1元买1平</a></li>
+						<li><a href="">160减60</a></li>  
+						<li><a href="">100减100</a></li> 
+						<li><a href="">妆容发布</a></li> 
+						<li><a href="">买一送一</a></li> 
+						<li><a href="">游戏手机</a></li>
+						<li><a href="">小龙虾</a></li>
+						<li><a href="">ITVIP</a></li>
+				</div>	
+			</div>
+			<div class="search_r lf">
+				<li><i></i>我的购物车</li>
+			</div>
+			<div class="search_r1 rf">
+				<a href=""><img src="images/header3.png" width="65px" height="65px"></a>
+			</div>
+		</div>
+    <!-- nav -->
+    	<div class="nav container clearfloat">
+			<div class="nav_l lf">
+				<img src="picture/jd.gif" style="display: block; width: 200px; height: 170px;">
+			</div>
+			<div class="nav_main">
+				<li><a href="">秒杀</a></li>
+				<li><a href="">优惠券</a></li>
+				<li><a href="">PLUS会员</a></li>
+				<li><a href="">闪购   </a>|</li>
+				<li><a href="">拍卖</a></li>
+				<li><a href="">京东时尚</a></li>
+				<li><a href="">京东超市</a></li>
+				<li><a href="">京东生鲜   </a>|</li>
+				<li><a href="">海囤全球</a></li>
+				<li><a href="">京东金融</a></li>
+			</div>
+			<div class="nav_r rf">
+				<img src="picture/dongtu2.gif" alt="">
+			</div>
+		</div>
+    <!-- banner -->
+		<div class="banner container clearfloat ">
+			<div class="banner_l">
+				<div class="hang"><li><a href="">家用电器</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div></li>
+					
+				</div>
+					
+				<div class="hang"><li><a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">电脑 </a>/<a href=""> 办公</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>
+						<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a>
+					<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">母婴 </a>/<a href=""> 玩具乐器</a>
+						<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">食品 </a>/<a href=""> 酒类 </a>/<a href=""> 生鲜 </a>/<a href=""> 特产</a>
+						<div class="hang_list">
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+						<a href="">手机 </a>/<a href=""> 运营商 </a>/<a href=""> 数码</a>/<a href="">家居 </a>/<a href=""> 家具 </a>/<a href=""> 家装 </a>/<a href=""> 厨具</a>/<a href="">男装 </a>/<a href=""> 女装 </a>/<a href=""> 童装 </a>/<a href=""> 内衣</a>/<a href="">美妆 </a>/<a href=""> 个护清洁 </a>/<a href=""> 宠物</a>/<a href=""> 女鞋 </a>/<a href=""> 箱包 </a>/<a href=""> 钟表 </a>/<a href=""> 珠宝</a>/<a href="">男鞋 </a>/<a href=""> 运动 </a>/<a href=""> 户外</a> / <a href="">房产 </a>/<a href=""> 汽车 </a>/<a href=""> 汽车用品</a><br>
+					
+					</div>
+				</li></div>
+				<div class="hang"><li><a href="">艺术 </a>/<a href=""> 礼品鲜花 </a>/<a href=""> 农资绿植</a></li></div>
+				<div class="hang"><li><a href="">医药保健 </a>/<a href=""> 计生情趣</a></li></div>
+				<div class="hang"><li><a href="">图书 </a>/<a href=""> 文娱 </a>/<a href=""> 电子书</a></li></div>
+				<div class="hang"><li><a href="">机票 </a>/<a href=""> 酒店 </a>/<a href=""> 旅游 </a>/<a href=""> 生活</a></li></div>
+				<div class="hang"><li><a href="">理财 </a>/<a href=""> 众筹 </a>/<a href=""> 白条 </a>/<a href=""> 保险</a></li></div>
+				<div class="hang"><li><a href="">安装 </a>/<a href=""> 维修 </a>/<a href=""> 清洗 </a>/<a href=""> 二手</a></li></div>
+				<div class="hang"><li><a href="">工业品</a></li></div>
+			</div>
+				<script src="css/jquery.min.js"></script>
+				<script src="css/slick.min.js"></script>			
+				<div class="banner_c ">
+				<div class="slick ">
+					<div><a href=""><img src="picture/banner_c1.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c2.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c3.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c4.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c5.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c6.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c7.jpg" alt=""></a></div>
+					<div><a href=""><img src="picture/banner_c8.jpg" alt=""></a></div>
+				</div>
+
+
+				<script>
+					$(function(){
+						$('.slick').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true,
+							autoplaySpeed:1500
+						});
+					});
+				</script>
+				<div class="ba_c_r ">
+					<a href=""><img src="picture/ba_c_r1.jpg" alt=""></a>
+					<a href=""><img src="picture/ba_c_r2.jpg" alt=""></a>
+					<a href=""><img src="picture/ba_c_r3.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="banner_r">
+				<div class="ba_r_t">
+					<div class="touxiang"><img src="picture/touxiang.jpg" width='60px' height='60px'></div>
+					<div class="hello">
+						Hi~欢迎来到京东 ！
+					</div>
+					<div class="dlzc">
+						<a href="">登录</a>
+						<a href="">注册</a>
+					</div>
+					<div class="kuang">
+						<div class="k1">新人福利</div>  
+						<div class="k2">PLUS会员</div>
+					</div>
+				</div>
+				<div class="ba_r_c">
+					<div class="ba_r_title">
+						<div class="jdkb lf">京东快报</div>
+						<div class="more rf"><a href=""> 更多<i></i></a></div>
+					</div>
+					<div class="ba_r_text">
+						<div class="ba_hang">
+							<div class="hot">热议</div>
+							<div class="hot_text"><a href=""> 华为惊世之作：500...</a></div>
+						</div>
+						<div class="ba_hang">
+							<div class="hot">热门</div>
+							<div class="hot_text"><a href=""> 华为确认放弃安卓，...</a></div>
+						</div>
+						<div class="ba_hang">
+							<div class="hot">推荐</div>
+							<div class="hot_text"><a href=""> 新iphone发布，ipho...</a></div>
+						</div>
+						<div class="ba_hang">
+							<div class="hot">热议</div>
+							<div class="hot_text"><a href=""> 华为宣布5G收费标...</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="ba_r_b">
+					<div class="ba_tubiao ">
+						<div class="tubiao_hang">
+							<a href=""><li class="t1"><i></i></li><li class="t_text">话费</li></a>
+							<a href=""><li class="t2"><i></i></li><li class="t_text">机票</li></a>
+							<a href=""><li class="t3"><i></i></li><li class="t_text">酒店</li></a>
+							<a href=""><li class="t4"><i></i></li><li class="t_text">游戏</li></a>
+						</div>
+						<div class="tubiao_hang">
+							<a href=""><li class="t5"><i></i></li><li class="t_text">企业购</li></a>
+							<a href=""><li class="t6"><i></i></li><li class="t_text">加油卡</li></a>
+							<a href=""><li class="t7"><i></i></li><li class="t_text">电影票</li></a>
+							<a href=""><li class="t8"><i></i></li><li class="t_text">火车票</li></a>
+						</div>
+						<div class="tubiao_hang">
+							<a href=""><li class="t9"><i></i></li><li class="t_text">众筹</li></a>
+							<a href=""><li class="t10"><i></i></li><li class="t_text">理财</li></a>
+							<a href=""><li class="t11"><i></i></li><li class="t_text">礼品卡</li></a>
+							<a href=""><li class="t12"><i></i></li><li class="t_text">白条</li></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <!-- main -->
+		<div class="main container clearfloat">
+			<div class="miaosha">
+				<div class="ms_l">
+					<div class="bigtext">京东秒杀</div>
+					<div class="englishtext">FLASH DEALS</div>
+					<i></i>
+					<div class="smatext">本场距离结束还剩</div>
+
+					<div class="con">
+						<div class="hour">
+							<div id="hour" class="digit"></div>
+							<div class="hr"></div>
+						</div>
+						<div class="hour">
+							<div id="minute" class="digit"></div>
+							<div class="hr"></div>
+						</div>
+						<div class="hour">
+							<div id="second" class="digit"></div>
+							<div class="hr"></div>
+						</div>
+					</div>
+
+				<script>
+						function daojishi(){	
+							var d1=new Date();
+							var d2=new Date(2019,5,27,5);
+							var d3=d2-d1;		
+							var second= Math.floor(d3/1000% 60);
+							var minute= Math.floor(d3/1000/60% 60);	
+							var hour= Math.floor(d3/1000/60/60% 24);
+							hour=addZero(hour);
+							minute=addZero(minute);
+							second=addZero(second);			
+							document.getElementById('hour').innerHTML=hour;
+							document.getElementById('minute').innerHTML=minute;
+							document.getElementById('second').innerHTML=second;
+						}
+						function addZero(num){
+						if(num<10){
+							num='0'+num;
+						}
+						return num;
+						}
+						setInterval(daojishi,1000);		
+						daojishi();
+				</script>
+
+				</div>
+			
+				<div class="ms_c">
+					<div class="ms_c_main">
+						<a href=""><img src="picture/ms_c1.jpg" width="140px" height="140px"></a>
+						<li class="ms_ctext"><a href=""> 机械革命（MECHREVO）X8Ti...</a></li>
+						<div class="ms_c_jq">
+							<div class="jq_red">￥6465.00</div>
+							<div class="jq_grey"><del>￥8999.00</del></div>
+						</div>
+					</div>
+					<div class="ms_c_main">
+						<a href=""><img src="picture/ms_c2.jpg" width="140px" height="140px"></a>
+						<li class="ms_ctext"><a href=""> 美的(Midea)恒温调奶器...</a></li>
+						<div class="ms_c_jq">
+							<div class="jq_red">￥236.00</div>
+							<div class="jq_grey"><del>￥279.00</del></div>
+						</div>
+					</div>
+					<div class="ms_c_main">
+						<a href=""><img src="picture/ms_c3.jpg" width="140px" height="140px"></a>
+						<li class="ms_ctext"><a href=""> 码仕 闹钟锂电充电款智能电...</a></li>
+						<div class="ms_c_jq">
+							<div class="jq_red">￥99.00</div>
+							<div class="jq_grey"><del>￥128.00</del></div>
+						</div>
+					</div>
+					<div class="ms_c_main">
+						<a href=""><img src="picture/ms_c4.jpg" width="140px" height="140px"></a>
+						<li class="ms_ctext"><a href="">【家庭3D眼睛套装版】明基...</a></li>
+						<div class="ms_c_jq">
+							<div class="jq_red">￥4469.00</div>
+							<div class="jq_grey"><del>￥5999.00</del></div>
+						</div>
+					</div>
+				</div>
+			<!-- 	<script>
+						$(function(){
+						$('.ms_ll').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true
+							// autoplaySpeed:1500
+							// accessibility:false
+						});
+					});
+					</script> -->
+
+				<div class="ms_r rf">
+					<div class="slick2">
+						<div><a href=""><img src="picture/ws12.jpeg" alt=""></a></div>
+						<div><a href=""><img src="picture/ws16.png" alt=""></a></div>
+					</div>
+					<script>
+						$(function(){
+						$('.slick2').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true,
+							autoplaySpeed:1000
+						});
+					});
+					</script>
+				</div>
+			</div>
+			<div class="faxian clearfloat">
+				<div class="phb lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">排行榜</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">专属你的购物指南</a></div>
+					</div>
+					<div class="ph_c">
+						<li><a href="">手机</a></li>
+						<li><a href="">维修保养</a></li>
+						<li><a href="">乐器</a></li>
+						<li><a href="">待产护理</a></li>
+						<li><a href="">沙发</a></li>
+					</div>
+					<div class="lunbo1">
+					<div class="ph_b">
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture/phb1.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi1"></span></div>
+							<div class="ph_btext"><a href="">realme X 4800万双摄 升降摄像头 屏下指纹 游戏手机 8GB+128GB朋克蓝 </a></div>
+						</div>
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture//phb2.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi2"></span></div>
+							<div class="ph_btext"><a href="">Apple iPhone XS Max (A2104) 256GB 深空灰色 移动联通电信4G手机 </a></div>
+						</div>
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture//phb3.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi3"></span></div>
+							<div class="ph_btext"><a href="">一加 OnePlus 7 Pro 2K+90Hz 流体屏 骁龙855旗舰 4800万超广角三摄 </a></div>
+						</div>
+					</div>
+					<div class="ph_b">
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture//phb4.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi4"></span></div>
+							<div class="ph_btext"><a href="">华为 HUAWEI P30 Pro 超感光徕卡四摄10倍混合变焦麒麟980芯片屏内指纹</a></div>
+						</div>
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture//phb5.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi5"></span></div>
+							<div class="ph_btext"><a href="">Apple iPhone XR (A2108) 128GB 白色 移动联通电信4G手机 双卡双待</a></div>
+						</div>
+						<div class="ph_b_main">
+							<div><a href=""><img src="picture//phb6.jpg" width="80px" height="80px"></a></div>
+							<div><span class="iconfont icon-weitaoshuzi6"></span></div>
+							<div class="ph_btext"><a href="">OPPO K3 高通骁龙710 升降摄像头 VOOC闪充 8GB+128GB 星云紫 </a></div>
+						</div>
+					</div>
+					</div>
+					<script>
+						$(function(){
+						$('.lunbo1').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true,
+							autoplaySpeed:2500
+							// accessibility:false
+						});
+					});
+					</script>
+
+
+				</div>
+				<div class="hmzj">
+					<div class="fx_top">
+						<div class="fx_bigtext">会买专辑</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">甄选优质好物</a></div>
+					</div>
+					<br><br>
+					<div class="hm_lb">
+						<div class="hm_l">
+							<div class="hm_c">
+								<a href=""><img src="picture/hm11.jpeg" alt=""></a>
+							</div>
+							<div class="hm_b">
+								<a href=""><img src="picture/hm22.jpeg" width="105px" height="105px"></a>
+								<a href=""><img src="picture/hm33.jpeg" width="105px" height="105px"></a>
+								<a href=""><img src="picture/hm44.jpeg" width="105px" height="105px"></a>
+							</div>
+							<div class="hm_text">
+								<div class="hm_bigtext"><a href=""> 花式口红告白，斩男色俘获心中他</a></div>
+								<div class="hm_nom"><a href=""> 甜美的爱情总会在不经意间来临，并不是只有男生表白，女生也可以为了爱情大胆表白，面对心爱的它，精致的</a></div>
+							</div>
+						</div>	
+						<div class="hm_l">
+							<div class="hm_c">
+								<a href=""><img src="picture/hm1.jpg" width="350px" height="128px"></a>
+							</div>
+							<div class="hm_b">
+								<a href=""><img src="picture/hm2.png" width="105px" height="105px"></a>
+								<a href=""><img src="picture/hm3.png" width="105px" height="105px"></a>
+								<a href=""><img src="picture/hm4.png" width="105px" height="105px"></a>
+							</div>
+							<div class="hm_text">
+								<div class="hm_bigtext"><a href=""> 叱咤绿茵地，篮球鞋提升场上表现</a></div>
+								<div class="hm_nom"><a href=""> 与队友一起在好的天气，约在一起打打球这是一件很有意义的事情，在这里推荐篮球，篮球的表面材料有着防滑性</a></div>
+							</div>
+						</div>
+					</div>
+					<script>
+						$(function(){
+						$('.hm_lb').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true,
+							autoplaySpeed:3000
+							// accessibility:false
+						});
+					});
+					</script>
+
+				</div>
+
+				<div class="ljzx rf">
+					<div class="fx_top">
+						<div class="fx_bigtext">领劵中心</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">前往领劵中心</a></div>
+					</div>
+					<br><br>
+					<div class="juan_lb">
+						<div class="juan_l">
+							<div class="juan1">
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan1.jpg" width="70px" height="70px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small>10</div>
+									<div class="ju_greytext">满200元可用</div>
+									<div class="ju_blacktext"><a href="">全品类通用卷（除特殊商...</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多精选好劵</a></div>
+							</div>
+							<div class="juan2">
+								
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan2.jpg" width="65px" height="65px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small>1000</div>
+									<div class="ju_greytext">满5000元可用</div>
+									<div class="ju_blacktext"><a href="">SONIM手机专营店</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多手机数码劵</a></div>
+							</div>
+							<div class="juan3">
+								
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan3.jpg" width="70px" height="70px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small>35</div>
+									<div class="ju_greytext">满188元可用</div>
+									<div class="ju_blacktext"><a href="">媛家酱官方旗舰店</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多精选好劵</a></div>
+							</div>
+						</div>
+						<div class="juan_l">
+							<div class="juan1">
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan4.jpg" width="70px" height="70px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small>300</div>
+									<div class="ju_greytext">满3000元可用</div>
+									<div class="ju_blacktext"><a href="">长帝伟仕达专卖店</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多家用电器劵</a></div>
+							</div>
+							<div class="juan2">
+								
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan5.png" width="65px" height="65px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small>30</div>
+									<div class="ju_greytext">满299元可用</div>
+									<div class="ju_blacktext"><a href="">妃鹊徕女装旗舰店</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多服饰内衣劵</a></div>
+							</div>
+							<div class="juan3">
+								
+								<div class="juan_tu">
+									<a href=""><img src="picture/juan4.jpg" width="70px" height="70px"></a>
+								</div>
+								<div class="juan_text">
+									<div class="ju_redtext"><small>￥</small> 35</div>
+									<div class="ju_greytext">满188元可用</div>
+									<div class="ju_blacktext"><a href="">爱乐士旗舰店</a></div>
+								</div>
+								
+								<div class="juan_shu"><a href="">更多家居家纺劵</a></div>
+							</div>
+						</div>
+					</div>
+
+					<script>
+						$(function(){
+						$('.juan_lb').slick({
+							dots:false,
+							arrows:false,
+							autoplay:true,
+							autoplaySpeed:3500
+							// accessibility:false
+						});
+					});
+					</script>
+
+
+				</div>
+			</div>
+			<div class="faxian clearfloat">
+				<div class="me lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">觅me</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">探索生活</a></div>
+					</div>
+
+					<div class="me_tu">
+						<div class="slick3">
+							<div><a href=""><img src="picture/lunbo1.png" alt=""></a></div>
+							<div><a href=""><img src="picture/lunbo2.jpg" alt=""></a></div>
+							<div><a href=""><img src="picture/lunbo3.jpg" alt=""></a></div>
+						</div>
+
+						<script>
+							$(function(){
+								$('.slick3').slick({
+									dots:false,
+									arrows:false,
+									autoplay:true
+								});
+							});
+						</script>
+					</div>
+					<div class="me_bigtext">5G时代“缺芯”的苹果：抱得住华为这棵大树...
+					</div>
+					<div class="me_text"><a href="">2019是公认的5G元年，年初开始--亮相的5G手机，让我们切实感受到距离它越来越近。而5G上迟迟没有作</a></div>
+				</div>
+				<div class="fxhh">
+					<div class="fx_top">
+						<div class="fx_bigtext">发现好货</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">专属你的购物指南</a></div>
+					</div>
+					<div class="fx1">
+						<div class="fx_sp">
+							<div class="fx_sp_tu"><a href=""><img src="picture/fxhh1.jpg" width="110px" height="110px"></a></div>
+							<div class="fx_sp_bigtext"><a href="">魅族 全面屏 NFC手机</a></div>
+							<div class="fx_sp_text"><a href="">魅族这款NFC全面屏手机...</a></div>
+						</div>
+						<div class="fx_sp">
+							<div class="fx_sp_tu"><a href=""><img src="picture/fxhh2.png" width="110px" height="110px"></a></div>
+							<div class="fx_sp_bigtext"><a href="">华为 全视屏 手机</a></div>
+							<div class="fx_sp_text"><a href="">手机配备LINK Turbo网络全...</a></div>
+						</div>
+					</div>
+					<div class="fx1">
+						<div class="fx_sp">
+							<div class="fx_sp_tu"><a href=""><img src="picture/fxhh3.jpg" width="110px" height="110px"></a></div>
+							<div class="fx_sp_bigtext"><a href="">adidas 女子 跑步鞋</a></div>
+							<div class="fx_sp_text"><a href="">鞋子采用黑色为主色调，鞋...</a></div>
+						</div>
+						<div class="fx_sp">
+							<div class="fx_sp_tu"><a href=""><img src="picture/fxhh4.png" width="110px" height="110px"></a></div>
+							<div class="fx_sp_bigtext"><a href="">海尔变频恒温热水器</a></div>
+							<div class="fx_sp_text"><a href="">富氧蓝焰燃烧技术，减少一氧...</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="hg rf">
+					<div class="fx_top">
+						<div class="fx_bigtext">会逛</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">你想逛的都在这里</a></div>
+					</div>
+					<div class="hg_t1"><a href=""><img src="picture/hg1.jpg" alt=""></a></div>
+					<div class="hg_t2">
+						<a href=""><img src="picture/hg2.jpg" alt=""></a>
+						<a href=""><img src="picture/hg3.jpg" alt=""></a>
+						<a href=""><img src="picture/hg4.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="jgtext clearfloat">—— 时尚达人 ——</div>
+			<div class="faxian clearfloat">
+				<div class="ydhw lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">运动户外</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">玩所未玩</a></div>
+					</div>
+					<div class="ydhw_t1"><a href=""> <img src="picture/tu9.jpg" width="350px" height="180px"></a></div>
+					<div class="ydhw_t2"><a href=""> <img src="picture/tu10.jpg" alt="" width="170px" height="180px"></a><a href=""> <img src="picture/tu11.jpg" alt=""" width="170px" height="180px"></a></div>
+				</div>
+				<div class="mlzb lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">魅力装扮</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">精致生活</a></div>
+					</div>
+					<div class="ydhw_t1"><a href=""> <img src="picture/tu12.jpg" width="350px" height="180px"></a></div>
+					<div class="ydhw_t2"><a href=""> <img src="picture/tu13.jpg" alt="" width="170px" height="180px"></a><a href=""> <img src="picture/tu14.jpg" alt=""" width="170px" height="180px"></a></div>
+				</div>
+				<div class="tu_border">
+					<div class="border_1"><a href=""><img src="picture/tu15.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="faxian clearfloat">
+				<div class="tu_border">
+					<div class="border_2"><a href=""><img src="picture/b2.jpg" width="340px" height="420px"></a></div>
+				</div>
+				<div class="jdhb lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">经典绘本 ·</div>
+						<div class="fx_smalltext"><a href="">必读经典</a></div>
+						
+					</div>
+					<div class="jdhb_t"><a href=""><img src="picture/jdhb1.jpg" width="130px" height="130px"></a></div>
+					<div class="jdhb_t"><a href=""><img src="picture/jdhb2.jpg" width="130px" height="130px"></a></div>
+					<div class="fx_top">
+						<div class="fx_bigtext">玩具书 ·</div>
+						<div class="fx_smalltext"><a href="">寓教于乐</a></div>
+						<!--  -->
+					</div>
+						<div class="wjs_t"><a href=""><img src="picture/wjs1.jpg" width="130px" height="130px"></a></div>
+						<div class="wjs_t"><a href=""><img src="picture/wjs2.jpg" width="130px" height="130px"></a></div>
+				</div>
+				<div class="wjsj lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">玩具世界 ·</div>
+
+						<div class="fx_smalltext"><a href="">甄选京东优质店铺</a></div>
+					</div>
+					<div class="wjsj_1">
+						<div class="sx1_l">
+							<div class="shopname">乐高京东自营旗舰店</div>
+							<div class="JDzy">
+								<div class="JDzy_white">JD</div>
+								<div class="JDzy_red">自营</div>
+							</div>
+							<div class="guanzhu">245.7万人关注</div>
+						</div>
+						<div class="sx_sp">
+							<a href=""><img src="picture/wjsj1.jpg" width="90px" height="90px"></a>
+							<div class="sx_jg">￥499.00</div>
+						</div>
+						<div class="sx_sp">
+							<a href=""><img src="picture/wjsj2.jpg" width="90px" height="90px"></a>
+							<div class="sx_jg">￥1299.00</div>
+						</div>
+						
+					</div>
+					<div class="wjsj_2">
+						<div class="sx2_l">
+							<div class="shopname">汪汪队立大功旗舰店</div>
+							<div class="JDzy">
+								<div class="JDzy_white">JD</div>
+								<div class="JDzy_red">自营</div>
+							</div>
+							<div class="guanzhu">18.2万人关注</div>
+						</div>
+						<div class="sx_sp">
+							<a href=""><img src="picture/wjsj3.jpg" width="90px" height="90px"></a>
+							<div class="sx_jg">￥149.00</div>
+						</div>
+						<div class="sx_sp">
+							<a href=""><img src="picture/wjsj4.jpg" width="90px" height="90px"></a>
+							<div class="sx_jg">￥349.00</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="faxian clearfloat">
+				<div class="jdss lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">京东时尚</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">尽享时尚生活</a></div>
+					</div>
+					<div class="jdss_t1"><a href=""><img src="picture/jdss1.jpg" ></a></div>
+					<div class="jdss_t2">
+						<a href=""><img src="picture/jdss2.jpg" width="110px" height="110px"></a>
+						<a href=""><img src="picture/jdss3.jpg" width="110px" height="110px"></a>
+						<a href=""><img src="picture/jdss4.jpg" width="110px" height="110px"></a>
+					</div>
+				</div>
+				<div class="wxws lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">我型我塑</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">时尚有我 品质衣橱</a></div>
+					</div>
+					<div class="ydhw_t1"><a href=""> <img src="picture/wxws1.jpg" width="350px" height="180px"></a></div>
+					<div class="ydhw_t2"><a href=""> <img src="picture/wxws2.jpg" alt="" width="170px" height="180px"></a><a href=""> <img src="picture/wxws3.jpg" alt=""" width="170px" height="180px"></a></div>
+				</div>
+				<div class="tu_border">
+					<div class="border_3">
+						<a href=""><img src="picture/border1.jpg" alt=""></a>
+						<a href=""><img src="picture/border2.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="jgtext clearfloat">—— 智能先锋 ——</div>
+			<div class="faxian clearfloat">
+				<div class="sjpd lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">手机频道</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">一个极奋的诞生</a></div>
+					</div>
+					<div class="sjpd_t">
+						<a href=""><img src="picture/sjpd1.jpg" alt="" width="170px" height="180px"></a>
+						<a href=""><img src="picture/sjpd2.jpg" alt="" width="170px" height="180px"></a>
+					</div>
+					<div class="sjpd_tt">
+						<a href=""><img src="picture/bottom-001.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-002.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-003.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-004.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-005.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-006.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-007.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-008.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-009.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-010.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-011.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-012.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="xpsf lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">新品首发</div>
+						<span class="iconfont icon-rightarrow"></span>
+						<div class="fx_smalltext"><a href="">李副官，去查查情况</a></div>
+					</div>
+					<div class="xpsf_t"><img src="picture/xpsf.jpg" width="350px" height="370px"></div>
+					
+				</div>
+				<div class="tu_border">
+					<div class="border_1"><a href=""><img src="picture/b1.jpg" width="340px" height="420px"></a></div>
+				</div>
+			</div>
+			<div class="faxian clearfloat">
+				<div class="tu_border">
+					<div class="border_4">
+						<a href=""><img src="picture/bottom-lf-01.jpg" alt=""></a>
+						<a href=""><img src="picture/bottom-lf-02.jpg" alt=""></a>
+
+					</div>
+				</div>
+				<div class="jnpz lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">教你拍照 ·</div>	
+						<div class="fx_smalltext"><a href="">会拍照的男朋友</a></div>
+					</div>
+					<div class="jnpz_t"><a href=""><img src="picture/bottom-m-01.jpg" alt=""></a></div>
+					<div class="jnpz_t"><a href=""><img src="picture/bottom-m-02.jpg" alt=""></a></div>
+					<div class="fx_top">
+						<div class="fx_bigtext">极客视界 ·</div>
+						<div class="fx_smalltext"><a href="">必备清单</a></div>
+					</div>
+					<div class="jksj_t"><a href=""><img src="picture/bottom-m-03.jpg" alt=""></a></div>
+					<div class="jksj_t"><a href=""><img src="picture/bottom-m-04.jpg" alt=""></a></div>
+				</div>
+				<div class="znsm lf">
+					<div class="fx_top">
+						<div class="fx_bigtext">智能数码 ·</div>
+						<div class="fx_smalltext"><a href="">智能潮货 嗨购不停</a></div>
+					</div>
+					<div class="znsm_t"><a href=""><img src="picture/znsm1.jpg" width="350px" height="180px"></a></div>
+					<div class="znsm_t"><a href=""><img src="picture/znsm2.jpg" width="350px" height="180px"></a></div>
+				</div>
+				
+			</div>
+		</div>
+    <!-- footer -->
+		<div class="footer container clearfloat">
+			<div class="f_t">
+				<div class="f_t_text"><div class="ft1"><i></i></div>品类齐全，轻松购物</div>
+				<div class="f_t_text"><div class="ft2"><i></i></div>多仓直发，极速配送</div>
+				<div class="f_t_text"><div class="ft3"><i></i></div>正品行货，精致服务</div>
+				<div class="f_t_text"><div class="ft4"><i></i></div>天天低价，畅选无忧</div>
+			</div>
+			<div class="f_c">
+				<div class="f_c_main">
+					<li class="c_text">购物指南</li>
+					<li><a href="">购物流程</a></li>
+					<li><a href="">会员介绍</a></li>
+					<li><a href="">生活旅游</a></li>
+					<li><a href="">常见问题</a></li>
+					<li><a href="">大家电</a></li>
+					<li><a href="">联系客服</a></li>
+				</div>
+				<div class="f_c_main">
+					<li class="c_text">配送方式</li>
+					<li><a href="">上门自提</a></li>
+					<li><a href="">211限时送</a></li>
+					<li><a href="">配送服务查询</a></li>
+					<li><a href="">配送费收取标准</a></li>
+					<li><a href="">海外配送</a></li>
+				</div>
+				<div class="f_c_main">
+					<li class="c_text">支付方式</li>
+					<li><a href="">货到付款</a></li>
+					<li><a href="">在线支付</a></li>
+					<li><a href="">分期付款</a></li>
+					<li><a href="">邮局汇款</a></li>
+					<li><a href="">公司转账</a></li>
+				</div>
+				<div class="f_c_main">
+					<li class="c_text">售后服务</li>
+					<li><a href="">售后政策</a></li>
+					<li><a href="">价格保护</a></li>
+					<li><a href="">退款说明</a></li>
+					<li><a href="">返修/退换货</a></li>
+					<li><a href="">取消订单</a></li>
+				</div>
+				<div class="f_c_main">
+					<li class="c_text">特色服务</li>
+					<li><a href="">夺宝岛</a></li>
+					<li><a href="">DIV装机</a></li>
+					<li><a href="">延保服务</a></li>
+					<li><a href="">京东E卡</a></li>
+					<li><a href="">京东通讯</a></li>
+					<li><a href="">京东JD+</a></li>
+				</div>
+				<div class="f_c_main1 ">
+				<i>
+					<li class="c_text1">京东自营覆盖区县</li>
+					<li>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。<br><a href="">查看详情></a></li>
+				</i>
+				</div>
+
+			</div>
+			<div class="f_b">
+				<div class="f_1">
+					<a href="">关于我们</a>|
+					<a href="">联系我们</a>|
+					<a href="">联系客服</a>|
+					<a href="">合作招商</a>|
+					<a href="">商家帮助</a>|
+					<a href="">营销中心</a>|
+					<a href="">手机京东</a>|
+					<a href="">友情链接</a>|
+					<a href="">销售联盟</a>|
+					<a href="">京东社区</a>|
+					<a href="">风险监测</a>|
+					<a href="">隐私政策</a>|
+					<a href="">京东公益</a>|
+					<a href="">English Site</a>|
+					<a href="">Media & IR</a>
+				</div>
+				<div class="f_2">
+						<a href="">京公网安备 11000002000088号</a> | 京ICP证070359号 | <a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a> | 新出发京零 字第大120007号</div>
+				<div class="f_2">
+					互联网出版许可证编号新出网证(京)字150号 | <a href="">出版物经营许可证</a> | <a href="">网络文化经营许可证京网文[2014]2148-348号</a> | 违法和不良信息举报电话：4006561155<br></div>
+				<div class="f_2">
+					Copyright © 2004 - 2019  京东JD.com 版权所有 | 消费者维权热线：4006067733 <a href="">经营证照</a> | (京)网械平台备字(2018)第00003号 | <a href="">营业执照</a><br></div>
+				<div class="f_2">
+					<a class="f_2t1" href=""><i></i>Global Site</a> | <a class="f_2t2" href=""><i></i> Сайт России</a> | <a  class="f_2t3" href=""><i></i> Situs Indonesia</a> | <a class="f_2t4" href=""><i></i> Sitio de España</a> | <a class="f_2t5" href=""><i></i> เว็บไซต์ประเทศไทย</a>
+				</div>
+				<div class="f_2">
+				京东旗下网站：
+				<a href="">京东钱包</a> |
+				<a href="">京东云</a>
+				</div>
+				<div class="f_3">
+					<a class="f_3t1" href=""> <i></i> </a>
+					<a class="f_3t2" href=""> <i></i> </a>
+					<a class="f_3t3" href=""> <i></i> </a>
+					<a class="f_3t4" href=""> <i></i> </a>
+					<a class="f_3t5" href=""> <i></i> </a>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
